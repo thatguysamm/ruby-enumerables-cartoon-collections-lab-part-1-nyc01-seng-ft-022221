@@ -5,6 +5,6 @@ end
 
 def list_dwarves(array)
   total= 0
-  puts array.each {|char|
-  "#{array.length}. #{char}"}
+   array.each {|char|
+     puts "#{array.length}. #{char}"}
 end
