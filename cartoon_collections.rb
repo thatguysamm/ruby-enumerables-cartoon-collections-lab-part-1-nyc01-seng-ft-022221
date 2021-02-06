@@ -4,6 +4,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  total= 0
   array.each {|char|
-  puts "#{array.length}. #{char}"}
+  "#{array.length}. #{char}"}
 end
